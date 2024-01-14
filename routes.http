@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video node ",
+    "description": "santana",
+    "duration": 777
+}
+
+
+###
+
+GET http://localhost:3333/videos
+
+
+###
+
+PUT http://localhost:3333/videos/6f4764b9-7407-497e-b8bc-3c93f8b4975b
+Content-Type: application/json
+
+{
+    "title": "Lucas Santana Belato",
+    "description": "Alterado 2",
+    "duration": 777
+}
+
+###
+
+DELETE  http://localhost:3333/videos/6f4764b9-7407-497e-b8bc-3c93f8b4975b
